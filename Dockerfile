@@ -5,7 +5,6 @@ RUN rm /app/*
 
 ADD ./prestart.sh /app
 ADD ./hello.py /app
-ADD ./uwsgi.ini /app
 
 EXPOSE 80
 
